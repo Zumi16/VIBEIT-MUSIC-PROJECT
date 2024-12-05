@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeIt - Music On The Go</title>
+    <link href="/styles/home.css" rel="stylesheet" />
+</head>
+
+<body>
+    <main>
+        <div class="containertop"></div>
+        <h1 class="margin">Made For You!</h1>
+        <div class="container margin">
+            <div class="songlist">
+                <div class="songitem songitem0">
+                    <img src="/covers/blindinglightsimg.png" alt="1" />
+                    <span class="songName">Blinding Lights - TheWeeknd</span>
+                    <span class="songlistplay">
+                        <i id="0" class="far songItemPlay fa-play-circle"></i>
+                    </span>
+                </div>
+                <div class="songitem songitem1">
+                    <img src="/covers/calloutmynameimg.png" alt="2" />
+                    <span class="songName">Call Out My Name-TheWeeknd</span>
+                    <span class="songlistplay">
+                        <i id="1" class="far songItemPlay fa-play-circle"></i>
+                    </span>
+                </div>
+                <div class="songitem songitem2">
+                    <img src="/covers/dieforyouimg.png" alt="3" />
+                    <span class="songName">Die For You-TheWeeknd</span>
+                    <span class="songlistplay">
+                        <i id="2" class="far songItemPlay fa-play-circle"></i>
+                    </span>
+                </div>
+                <div class="songitem songitem3">
+                    <img src="/covers/starboyimg.png" alt="4" />
+                    <span class="songName">Starboy - The Weeknd</span>
+                    <span class="songlistplay">
+                        <i id="3" class="far songItemPlay fa-play-circle"></i>
+                    </span>
+                </div>
+                <div class="songitem songitem4">
+                    <img src="/covers/letmeloveyouimg.png" alt="5" />
+                    <span class="songName">Let me love You - Justin Bieber</span>
+                    <span class="songlistplay">
+                        <i id="4" class="far songItemPlay fa-play-circle"></i>
+                    </span>
+                </div>
+
+                
+            </div>
+                <h1 class="head">What is this for?</h1>
+        </div>
+
+        <!-- Progress bar and controls -->
+        <div class="playcontainer">
+        <div class="bottommargin">
+            <div class="songinfo-container">
+                <div class="songinfo">
+                    <img id="masterSongImage" src="" width="100px" />
+                    <span id="masterSongName">click a song to play</span>
+                </div>
+            <div class="progcontainer">
+                <input type="range" name="songProgress" id="songProgress" min="0" max="100" />
+                <div class="icon">
+                    <i class="fas fa-2x fa-step-backward" id="previous"></i>
+                    <i class="far fa-2x fa-play-circle" id="masterPlay"></i>
+                    <i class="fas fa-2x fa-step-forward" id="next"></i>
+                </div>
+            </div>
+            </div>
+
+        </div>
+        </div>
+    </main>
+
+    <script src="./script/home.js"></script>
+    <script src="https://kit.fontawesome.com/d5b2540b36.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
